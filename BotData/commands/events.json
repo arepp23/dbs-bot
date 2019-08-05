@@ -1,0 +1,17 @@
+{
+  "command": [
+    {
+      "name": "Welcome Message",
+      "type": "User joins server",
+      "actions": [
+        {
+          "name": "Welsome to server",
+          "category": "Message",
+          "type": "Send Message",
+          "messagetext": "Welcome, ${member}, to our server!",
+          "channelname": "general",
+          "taguser": "false"
+        }    ]
+    }
+  ]
+}
